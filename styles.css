@@ -210,7 +210,7 @@ input[type='checkbox'] {
 }
 
 .btn {
-  background: var(--clr-grey-5);
+  background: #ba91e9;
   display: block;
   width: 100%;
   color: var(--clr-white);
@@ -242,7 +242,7 @@ input[type='checkbox'] {
     height: 2rem;
     display: block;
     border-radius: 50%;
-    background: rgba(255);
+    background: rgba(255, 255, 244, 1);
     display: grid;
     place-items: center;
     margin-bottom: 1.75rem;
@@ -251,11 +251,14 @@ input[type='checkbox'] {
     font-weight: 500;
   }
 
+  article p {
+    color: var(--clr-white);
+  }
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
     align-items: center;
-  }
   }
 }
